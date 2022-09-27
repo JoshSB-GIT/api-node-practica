@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css" />
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/default.min.css" />
+    <script src="https://kit.fontawesome.com/8d3edbfe1f.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.12.0/css/dataTables.bootstrap5.min.css">
+    <link rel="stylesheet" href="../css/dash.css">
+    <title>Document</title>
+</head>
+
+<body id="body">
+
+    <header>
+        <div class="icon_menu">
+            <i class="fa-solid fa-bars" id="btn_open"></i>
+        </div>
+    </header>
+
+
+    <div class="menu_side" id="menu_side">
+
+        <div class="name_page">
+            <!-- <h2>UNIVERSIDAD</h2> -->
+        </div>
+
+        <div class="option_menu">
+
+            <a href="dash.html">
+                <div class="option">
+                    <i class="fa-solid fa-house-chimney" title="Inicio"></i>
+                    <h4>Inicio</h4>
+                </div>
+            </a>
+
+            <a href="crud.html">
+                <div class="option">
+                    <i class="fa-solid fa-screwdriver-wrench" title="Gestionar datos"></i>
+                    <h4>Gestionar</h4>
+                </div>
+            </a>
+
+            <a href="notas.html">
+                <div class="option">
+                    <i class="fa-solid fa-file-arrow-up" title="Subir notas"></i>
+                    <h4>Subir notas</h4>
+                </div>
+            </a>
+
+            <a href="#" class="selected">
+                <div class="option">
+                    <i class="fa-solid fa-address-book" title="Ver materias"></i>
+                    <h4>Ver materias</h4>
+                </div>
+            </a>
+
+            <a href="index.html">
+                <div class="option">
+                    <i class="fa-solid fa-right-from-bracket" title="Regresar al inicio"></i>
+                    <h4>Salir</h4>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <main>
+        <div class="contenedor" style="margin-top: 7em;">
+            <div class="row" id="cont_materias" style="margin: 0 auto; margin-left: 7em;">
+            </div>
+        </div>
+    </main>
+
+    <script src="../js/dash.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.12.0/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.12.0/js/dataTables.bootstrap5.min.js"></script>
+
+    <script src="../js/proFetch.js"></script>
+</body>
+
+</html>
